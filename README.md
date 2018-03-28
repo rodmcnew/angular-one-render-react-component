@@ -1,10 +1,18 @@
 # Angular One Render React Component
 An angular one directive that renders a react component
 
+Installation:
+```BASH
+npm install angular-one-render-react-component
+```
+
+Import this angular module someone in your build:
+```JS
+import 'angular-one-render-react-component';
+```
+
 Example usage:
 ```JS
-import 'angular-one-render-react-component'; //Ideally import this module only once
-
 import angular from "angular";
 import SuggestedProductsController from 'SuggestedProductsController'
 
