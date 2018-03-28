@@ -11,8 +11,8 @@ angular.module('checkout', ['angularOneRenderReactComponent']).directive(
         function link(scope) {
             scope.myReactComponent = SuggestedProductsController;
             scope.myReactProps = {
-                'categoryName': 'Suggested Products',
-                'productCount': 5
+                categoryName: 'Suggested Products',
+                productCount: 5
             };
         }
 
