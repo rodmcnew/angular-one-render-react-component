@@ -13,7 +13,7 @@ import 'angular-one-render-react-component';
 
 Example usage inside another directive:
 ```JS
-import angular from "angular";
+import angular from 'angular';
 import SuggestedProductsController from 'SuggestedProductsController'
 
 angular.module('checkout', ['angularOneRenderReactComponent']).directive(
