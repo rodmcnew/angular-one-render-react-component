@@ -1,0 +1,31 @@
+{
+  "name": "angular-one-render-react-component",
+  "version": "1.0.0",
+  "description": "An angular one directive that renders a react component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodmcnew/angular-one-render-react-component.git"
+  },
+  "keywords": [
+    "angular",
+    "one",
+    "directive",
+    "render",
+    "react",
+    "component",
+    "props",
+    "from",
+    "inside",
+    "to"
+  ],
+  "author": "Rod McNew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodmcnew/angular-one-render-react-component/issues"
+  },
+  "homepage": "https://github.com/rodmcnew/angular-one-render-react-component#readme"
+}
