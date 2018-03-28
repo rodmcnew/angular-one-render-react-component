@@ -11,7 +11,7 @@ Import this angular module somewhere in your build:
 import 'angular-one-render-react-component';
 ```
 
-Example usage:
+Example usage inside another directive:
 ```JS
 import angular from "angular";
 import SuggestedProductsController from 'SuggestedProductsController'
