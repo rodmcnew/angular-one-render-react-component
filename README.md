@@ -6,7 +6,7 @@ Installation:
 npm install angular-one-render-react-component
 ```
 
-Import this angular module someone in your build:
+Import this angular module somewhere in your build:
 ```JS
 import 'angular-one-render-react-component';
 ```
