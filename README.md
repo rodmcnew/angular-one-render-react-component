@@ -9,14 +9,11 @@ import SuggestedProductsController from 'SuggestedProductsController'
 angular.module('checkout').directive(
     'checkoutSuggestedProducts', function () {
         function link(scope) {
-                        scope.reactComponent = SuggestedProductsController;
-                        scope.reactProps = {
-                            'categoryName': 'Suggested Products',
-                            'productCount': 5
-                        };
-                    }
-                }
-            );
+            scope.reactComponent = SuggestedProductsController;
+            scope.reactProps = {
+                'categoryName': 'Suggested Products',
+                'productCount': 5
+            };
         }
 
         return {
