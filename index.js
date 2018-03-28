@@ -7,7 +7,7 @@ let lastUniqueIdNumber = 0;
 /**
  * Generate a unique ID for the dom.
  *
- * We could just use math.random() here but there is a few in a billion change that could break.
+ * We could just use math.random() here but there is a few in a billion chance that could break.
  */
 function generateUniqueId() {
     lastUniqueIdNumber++;
