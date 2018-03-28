@@ -18,8 +18,7 @@ angular.module('checkout', ['angularOneRenderReactComponent']).directive(
 
         return {
             link: link,
-            template: `
-<render-react-component component="myReactComponent" props="myReactProps"></render-react-component>
+            template: '<render-react-component component="myReactComponent" props="myReactProps"></render-react-component>'
         }
     }
 );
