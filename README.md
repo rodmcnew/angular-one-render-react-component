@@ -1,4 +1,4 @@
-# angular-one-render-react-component
+Angular One Render React Component
 An angular one directive that renders a react component
 
 Example usage:
