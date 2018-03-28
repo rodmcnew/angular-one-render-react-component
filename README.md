@@ -9,8 +9,8 @@ import SuggestedProductsController from 'SuggestedProductsController'
 angular.module('checkout').directive(
     'checkoutSuggestedProducts', function () {
         function link(scope) {
-            scope.reactComponent = SuggestedProductsController;
-            scope.reactProps = {
+            scope.myReactComponent = SuggestedProductsController;
+            scope.myReactProps = {
                 'categoryName': 'Suggested Products',
                 'productCount': 5
             };
@@ -23,7 +23,7 @@ angular.module('checkout').directive(
                 order: '=order',
             },
             template: `
-<render-react-component component="reactComponent" props="reactProps"></render-react-component>
+<render-react-component component="myReactComponent" props="myReactProps"></render-react-component>
         }
     }
 );
