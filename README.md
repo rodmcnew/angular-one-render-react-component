@@ -18,10 +18,6 @@ angular.module('checkout', ['angularOneRenderReactComponent']).directive(
 
         return {
             link: link,
-            restrict: 'E',
-            scope: {
-                order: '=order',
-            },
             template: `
 <render-react-component component="myReactComponent" props="myReactProps"></render-react-component>
         }
