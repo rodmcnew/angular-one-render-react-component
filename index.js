@@ -1,4 +1,4 @@
-import angular from "angular";
+import angular from 'angular';
 import ReactDom from 'react-dom';
 import React from 'react';
 
@@ -39,7 +39,7 @@ angular.module('angularOneRenderReactComponent', []).directive(
             restrict: 'E',
             scope: {
                 component: '=component',
-                props: '=props',
+                props: '=props'
             },
             /**
              * ng-show="onAfterReactAppContainerRender()" is a way to make code run
