@@ -3,6 +3,7 @@ An angular one directive that renders a react component
 
 Example usage:
 ```JS
+import 'angular-one-render-react-component';
 import angular from "angular";
 import SuggestedProductsController from 'SuggestedProductsController'
 
