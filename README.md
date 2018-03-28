@@ -6,7 +6,7 @@ Example usage:
 import angular from "angular";
 import SuggestedProductsController from 'SuggestedProductsController'
 
-angular.module('checkout').directive(
+angular.module('checkout', ['angularOneRenderReactComponent']).directive(
     'checkoutSuggestedProducts', function () {
         function link(scope) {
             scope.myReactComponent = SuggestedProductsController;
