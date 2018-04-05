@@ -46,10 +46,7 @@ angular.module('angularOneRenderReactComponent', []).directive(
              * AFTER the parent div is rendered. This is a bit of an undocumented
              * hack but it works well.
              */
-            template: `
-<div id="{{reactAppContainerId}}">
-    <div ng-show="onAfterReactAppContainerRender()"></div>
-</div>`
+            template: '<div id="{{reactAppContainerId}}"><div ng-show="onAfterReactAppContainerRender()"></div></div>'
         }
     }
 );
